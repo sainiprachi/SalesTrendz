@@ -26,11 +26,4 @@ abstract  class Appdatabase extends RoomDatabase {
 
     abstract LocationDao getContactDao();
 
-
-
-
-
-
-
-
 }

@@ -1,8 +1,9 @@
 <resources>
     <string name="app_name">SalesTrendzTask</string>
-    <string name="title_location_permission">Location</string>
-    <string name="text_location_permission">Enable Permission</string>
-    <string name="ok">Ok</string>
+
+    <string name="default_notification_channel_id">my_channel_01</string>
+    <string name="ok">OK</string>
     <string name="start">Start</string>
+    <string name="stop">Stop</string>
 
 </resources>

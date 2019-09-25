@@ -1,10 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity">
+    tools:context=".ui.MainActivity">
 
     <fragment
         android:id="@+id/map"
@@ -23,35 +22,43 @@
         android:layout_height="80dp">
 
         <Button
+            android:id="@+id/btn_start"
+            style="@style/Widget.AppCompat.Button.Borderless"
             android:layout_width="0dp"
-            android:padding="10dp"
-            android:layout_marginLeft="10dp"
-            android:layout_gravity="center"
-            android:layout_weight=".50"
-            android:text="@string/start"
-            android:gravity="center"
-            android:textAllCaps="false"
-            android:textColor="@android:color/white"
-            android:background="@drawable/shape_drawable"
             android:layout_height="40dp"
-            android:layout_marginStart="10dp" />
+            android:layout_gravity="center"
+            android:layout_marginStart="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_weight=".50"
+            android:background="@drawable/shape_drawable"
+            android:gravity="center"
+            android:padding="10dp"
+            android:text="@string/start"
+            android:textAllCaps="false"
+            android:textColor="@android:color/white" />
+
         <Button
+            android:id="@+id/btn_stop"
+            style="@style/Widget.AppCompat.Button.Borderless"
             android:layout_width="0dp"
             android:padding="10dp"
             android:layout_marginLeft="10dp"
             android:layout_marginRight="10dp"
             android:layout_gravity="center"
-            android:paddingLeft="10dp"
             android:textAllCaps="false"
-
             android:layout_weight=".50"
-            android:text="Stop"
+            android:text="@string/stop"
             android:gravity="center"
             android:textColor="@android:color/black"
             android:background="@drawable/drawable_shape_gradient"
             android:layout_height="40dp"/>
-
     </LinearLayout>
+
+    <TextView
+        android:id="@+id/tv_loc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true" />
 
 
 </RelativeLayout>
