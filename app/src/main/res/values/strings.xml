@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">SalesTrendzTask</string>
+    <string name="title_location_permission">Location</string>
+    <string name="text_location_permission">Enable Permission</string>
+    <string name="ok">Ok</string>
+    <string name="start">Start</string>
+
+</resources>
